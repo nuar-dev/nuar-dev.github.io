@@ -20,17 +20,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true   # Required if you use Hugo Modules or themes as submodules
 
       - name: Setup Hugo
-        uses: peaceiris/setup-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: 'latest'    # Or specify a stable version (e.g., '0.119.0')
+          extended: true            # Required for SCSS/SASS, PostCSS, etc.
 
       - name: Build site
         run: hugo --minify
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
 
