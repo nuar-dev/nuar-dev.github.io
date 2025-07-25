@@ -2,7 +2,7 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           submodules: true
 
@@ -28,13 +29,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build site
+      - name: Build with Hugo
         run: hugo --minify
 
-      - name: Upload Pages artifact
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages
+          name: github-pages  # IMPORTANT
           path: ./public
 
   deploy:
