@@ -12,10 +12,6 @@ hugo_stats.*
 node_modules/
 package-lock.json
 
-# Go modules
-go.sum
-go.mod
-
 # System files
 .DS_Store
 Thumbs.db
