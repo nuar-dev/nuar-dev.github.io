@@ -19,24 +19,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: latest
+          hugo-version: '0.148.1'
           extended: true
 
-      - name: Install Node.js dependencies (if needed)
+      - name: Install dependencies (optional, if using PostCSS, Tailwind, etc.)
         run: npm install
 
-      - name: Build with Hugo
+      - name: Build site with Hugo
         run: hugo --minify
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
         with:
+          name: github-pages
           path: ./public
 
   deploy:
@@ -44,9 +45,9 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+        id: deploy
+        uses: actions/deploy-pages@v4
