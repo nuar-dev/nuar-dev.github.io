@@ -1,53 +1,66 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]    # Run on pushes to the main branch
+  workflow_dispatch:      # Allow manual trigger
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read          # to read repository contents
+  pages: write            # to create Pages deployments
+  id-token: write         # to verify the deployment originates from this workflow
 
-concurrency:
+concurrency:              # prevent overlapping deploys
   group: "pages"
   cancel-in-progress: false
 
 jobs:
+  # Build job - compiles the Hugo site and uploads the artifact
   build:
     runs-on: ubuntu-latest
-
+    env:
+      HUGO_VERSION: "0.147.2"        # specify Hugo version to install
     steps:
-      - name: Checkout source code
+      - name: Checkout source
         uses: actions/checkout@v4
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.148.1'
-          extended: true
+          submodules: true          # fetch submodules (for theme modules, etc)
+          fetch-depth: 0           # full history (recommended for Hugo)
 
-      - name: Install dependencies (optional, if using PostCSS, Tailwind, etc.)
-        run: npm install
+      - name: Install Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" && \
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      - name: Build site with Hugo
-        run: hugo --minify
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
-      - name: Upload site artifact
+      # (Optional) Install any additional dependencies (e.g., Node, Sass) here if your Hugo site requires them
+
+      - name: Build with Hugo
+        run: |
+          hugo --gc --minify \
+               --baseURL "${{ steps.pages.outputs.base_url }}/"
+          # Hugo will output the site to the ./public directory by default
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages
-          path: ./public
+          path: ./public  # folder with the generated site files
 
+  # Deploy job - publishes the artifact to GitHub Pages
   deploy:
-    needs: build
     runs-on: ubuntu-latest
+    needs: build                 # ensure build job completes first
     environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-
+      name: github-pages         # default Pages environment
+      url: ${{ steps.deployment.outputs.page_url }}  # expose the Pages URL as an output
+    permissions:
+      pages: write               # required to deploy to Pages
+      id-token: write            # required to verify the deployment
     steps:
       - name: Deploy to GitHub Pages
-        id: deploy
+        id: deployment
         uses: actions/deploy-pages@v4
