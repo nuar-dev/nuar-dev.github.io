@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: nuar-dev.github.io
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  site_domain: nuar.de
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "post"
+    label: "Blog"
+    folder: "content/post"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
