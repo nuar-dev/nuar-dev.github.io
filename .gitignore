@@ -1,23 +1,5 @@
-# Hugo output directories
-/public/
-/resources/
-
-# Hugo cache & build files
 .hugo_build.lock
-.cache/
-hugo_stats.json
-hugo_stats.*
-
-# Node modules & lock file
-node_modules/
-package-lock.json
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Editor configs
-.idea/
-.vscode/
-*.swp
-*.swo
+.hvm
+exampleSite/public/
+exampleSite/resources/
+exampleSite/.hugo_build.lock

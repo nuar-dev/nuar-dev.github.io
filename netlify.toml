@@ -1,21 +1,18 @@
+# Settings in the [build] context are global and are applied to
+# all contexts unless otherwise overridden by more specific contexts.
+
 [build]
-  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
-  publish = "public"
+  base = "/"
+  publish = "exampleSite/public"
+  command = "cd exampleSite && hugo --gc --themesDir ../.."
 
 [build.environment]
-  HUGO_VERSION = "0.136.5"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.123.8"
+  GO_VERSION = "1.22.1"
+  NODE_VERSION = "20"
+  HUGO_THEME = "repo"
 
-[context.production.environment]
-  HUGO_ENV = "production"
-
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
-
-[context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+command = "cd exampleSite && hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"
