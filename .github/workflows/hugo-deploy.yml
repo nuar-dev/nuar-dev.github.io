@@ -21,13 +21,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true   # Required if you use Hugo Modules or themes as submodules
+          submodules: true   # If you use Hugo Modules/themes
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'    # Or specify a stable version (e.g., '0.119.0')
-          extended: true            # Required for SCSS/SASS, PostCSS, etc.
+          hugo-version: 'latest'
+          extended: true
 
       - name: Build site
         run: hugo --minify
