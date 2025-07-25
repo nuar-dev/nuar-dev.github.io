@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: Build and Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Hugo
@@ -28,10 +28,17 @@ jobs:
           hugo-version: '0.148.1'
           extended: true
 
-      - name: Build
+      - name: Build site
         run: hugo --minify
 
-      - name: Upload artifact
+      # Optional: Upload build output for debugging
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-build
+          path: ./public
+
+      - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
@@ -41,9 +48,9 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy
+        id: deploy
         uses: actions/deploy-pages@v2
