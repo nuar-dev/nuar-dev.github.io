@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write      # Needed for release-please
   pages: write
   id-token: write
 
@@ -44,8 +44,31 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create release PR
+        uses: google-github-actions/release-please-action@db8f2c60ee802b3748b512940dde88eabd7b7e01 # v3.7.13
+        with:
+          release-type: simple
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-header: ":rocket: New release"
+          changelog-types: >-
+            [{"type":"feat","section":":sparkles: Features","hidden":false},
+             {"type":"fix","section":":bug: Bug Fixes","hidden":false},
+             {"type":"chore","section":":hammer: Housekeeping","hidden":false},
+             {"type":"docs","section":":memo: Documentation","hidden":false},
+             {"type":"ci","section":":construction_worker: CI/CD","hidden":false},
+             {"type":"perf","section":":zap: Performance","hidden":false},
+             {"type":"refactor","section":":recycle: Refactoring","hidden":false},
+             {"type":"style","section":":art: Style","hidden":false},
+             {"type":"test","section":":white_check_mark: Tests","hidden":false}]
