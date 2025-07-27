@@ -1,3 +1,4 @@
-module github.com/hugo-sid/hugo-blog-awesome
+module github.com/nuar-dev/nuar-dev.github.io
 
-go 1.22.0
+go 1.24.5
+
