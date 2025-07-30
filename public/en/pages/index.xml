@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on nuar&#39;s dev-lab</title>
+    <link>http://localhost:39405/en/pages/</link>
+    <description>Recent content in Pages on nuar&#39;s dev-lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:39405/en/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:39405/en/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:39405/en/pages/about/</guid>
+      
+      <description>&lt;h2 id=&#34;core-expertise&#34;&gt;Core Expertise&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DevOps &amp;amp; Infrastructure Automation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full‑Stack Application Development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simulation Engines &amp;amp; Warehouse Modeling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Warehouse Optimization&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Process Mapping &amp;amp; Data Modeling&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

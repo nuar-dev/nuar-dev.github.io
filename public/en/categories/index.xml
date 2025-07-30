@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on nuar&#39;s dev-lab</title>
-    <link>http://localhost:39405/categories/</link>
+    <link>http://localhost:39405/en/categories/</link>
     <description>Recent content in Categories on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language><atom:link href="http://localhost:39405/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://localhost:39405/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
