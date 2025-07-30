@@ -18,42 +18,30 @@
   <sitemap>
     <loc>http://localhost:1313/fr-fr/sitemap.xml</loc>
     
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-    
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/ja/sitemap.xml</loc>
-    
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
     
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-    
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/ru-ru/sitemap.xml</loc>
-    
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
     
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-    
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/it/sitemap.xml</loc>
-    
-      <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     
   </sitemap>
   
