@@ -2,27 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on nuar&#39;s dev-lab</title>
-    <link>http://localhost:39405/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language><atom:link href="http://localhost:39405/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>de</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:39405/pages/about/</link>
+      <link>http://localhost:1313/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/pages/about/</guid>
+      <guid>http://localhost:1313/pages/about/</guid>
       
-      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;-über-mich&#34;&gt;👤 Über mich&lt;/h2&gt;
+&lt;p&gt;Technologiebegeisterter Prozessdenker mit einem klaren Ziel: &lt;strong&gt;Geschäftsprozesse effizienter, transparenter und nutzerorientierter zu gestalten&lt;/strong&gt;.&lt;br&gt;
+Ich verbinde technisches Know-how mit einem tiefen Verständnis für betriebswirtschaftliche Zusammenhänge – von &lt;strong&gt;ERP-Systemen&lt;/strong&gt; und &lt;strong&gt;Prozessanalyse-Tools&lt;/strong&gt; bis hin zu &lt;strong&gt;datengetriebenen Lösungen&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Aktuell beschäftige ich mich intensiv mit &lt;strong&gt;modernen Programmiersprachen&lt;/strong&gt; und &lt;strong&gt;Full-Stack-Entwicklung&lt;/strong&gt;, um leistungsfähige und sichere Anwendungen zu entwickeln.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-arbeitsweise--werte&#34;&gt;🤝 Arbeitsweise &amp;amp; Werte&lt;/h2&gt;
+&lt;p&gt;Ich lege großen Wert auf &lt;strong&gt;Kommunikation auf Augenhöhe&lt;/strong&gt; – für mich steht der Mensch im Mittelpunkt, nicht die reine Expertise.&lt;br&gt;
+Potenziale identifiziere ich lieber gemeinsam, anstatt fertige Lösungen aufzudrängen. Dabei nutze ich &lt;strong&gt;Design Thinking&lt;/strong&gt; und arbeite gerne mit &lt;strong&gt;agilen Methoden&lt;/strong&gt;.&lt;/p&gt;</description>
       
     </item>
     

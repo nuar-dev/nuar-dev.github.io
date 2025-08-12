@@ -1,23 +1,35 @@
 ---
 title: About
-description: 'Hugo, the world''s fastest framework for building websites'
-author: Hugo Authors
+description: 'About me'
+author: nuar-dev
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## 👤 Über mich
 
-Hugo makes use of a variety of open source projects including:
+Technologiebegeisterter Prozessdenker mit einem klaren Ziel: **Geschäftsprozesse effizienter, transparenter und nutzerorientierter zu gestalten**.  
+Ich verbinde technisches Know-how mit einem tiefen Verständnis für betriebswirtschaftliche Zusammenhänge – von **ERP-Systemen** und **Prozessanalyse-Tools** bis hin zu **datengetriebenen Lösungen**.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Aktuell beschäftige ich mich intensiv mit **modernen Programmiersprachen** und **Full-Stack-Entwicklung**, um leistungsfähige und sichere Anwendungen zu entwickeln.  
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+---
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+## 🤝 Arbeitsweise & Werte
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+Ich lege großen Wert auf **Kommunikation auf Augenhöhe** – für mich steht der Mensch im Mittelpunkt, nicht die reine Expertise.  
+Potenziale identifiziere ich lieber gemeinsam, anstatt fertige Lösungen aufzudrängen. Dabei nutze ich **Design Thinking** und arbeite gerne mit **agilen Methoden**.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Neue Technologien oder Themenfelder erschließe ich mir durch eine Kombination aus **tiefgehender Recherche** und **praktischen Projekten**.  
+Meine Stärken liegen in **kreativer Problemlösung** und darin, komplexe Prozesse effizienter zu gestalten.
+
+---
+
+## 🎯 Motivation & Zielrichtung
+
+Ich möchte meine technische Expertise und mein Prozessverständnis in Rollen einbringen, in denen **Optimierung, Kundenorientierung und wirtschaftlicher Nutzen** im Vordergrund stehen – z. B. im **technischen Vertrieb**, im **Projektmanagement** oder in **Product Owner**-ähnlichen Positionen.
+
+---
+
+## 💡 Persönliches
+
+Ich habe eine ausgeprägte **Lern- und Entwicklungsmotivation** und interessiere mich für **internationale Kulturen**, **digitale Innovationen** und **kreative Technologien**.  
+Für mich sind **Neugier und kontinuierliches Lernen** der Schlüssel zu innovativen Lösungen.

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on nuar&#39;s dev-lab</title>
-    <link>http://localhost:39405/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content in Home on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:39405/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>some example content</title>
-      <link>http://localhost:39405/en/posts/example_content/my-first-post/</link>
+      <link>http://localhost:1313/en/posts/example_content/my-first-post/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/example_content/my-first-post/</guid>
+      <guid>http://localhost:1313/en/posts/example_content/my-first-post/</guid>
       
       <description>&lt;p&gt;Just some text&lt;/p&gt;</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Table of content</title>
-      <link>http://localhost:39405/en/posts/table-of-content/</link>
+      <link>http://localhost:1313/en/posts/table-of-content/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/table-of-content/</guid>
+      <guid>http://localhost:1313/en/posts/table-of-content/</guid>
       
       <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of content&lt;/h2&gt;
 &lt;p&gt;This theme supports displaying table of content (ToC) in blog posts.&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Math Typesetting - use Mathematical notation in blog posts</title>
-      <link>http://localhost:39405/en/posts/math-typesetting/</link>
+      <link>http://localhost:1313/en/posts/math-typesetting/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/math-typesetting/</guid>
+      <guid>http://localhost:1313/en/posts/math-typesetting/</guid>
       
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using
 &lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
@@ -56,10 +56,10 @@
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:39405/en/posts/markdown-syntax/</link>
+      <link>http://localhost:1313/en/posts/markdown-syntax/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/markdown-syntax/</guid>
+      <guid>http://localhost:1313/en/posts/markdown-syntax/</guid>
       
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
       
@@ -67,10 +67,10 @@
     
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:39405/en/posts/rich-content/</link>
+      <link>http://localhost:1313/en/posts/rich-content/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/rich-content/</guid>
+      <guid>http://localhost:1313/en/posts/rich-content/</guid>
       
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
       
@@ -78,10 +78,10 @@
     
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:39405/en/posts/placeholder-text/</link>
+      <link>http://localhost:1313/en/posts/placeholder-text/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/posts/placeholder-text/</guid>
+      <guid>http://localhost:1313/en/posts/placeholder-text/</guid>
       
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
       
@@ -89,19 +89,19 @@
     
     <item>
       <title>About</title>
-      <link>http://localhost:39405/en/pages/about/</link>
+      <link>http://localhost:1313/en/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:39405/en/pages/about/</guid>
+      <guid>http://localhost:1313/en/pages/about/</guid>
       
-      <description>&lt;h2 id=&#34;core-expertise&#34;&gt;Core Expertise&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;DevOps &amp;amp; Infrastructure Automation&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Full‑Stack Application Development&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Simulation Engines &amp;amp; Warehouse Modeling&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Warehouse Optimization&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business Process Mapping &amp;amp; Data Modeling&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;-about-me&#34;&gt;👤 About Me&lt;/h2&gt;
+&lt;p&gt;Technology-driven process thinker with a clear goal: &lt;strong&gt;making business processes more efficient, transparent, and user-oriented&lt;/strong&gt;.&lt;br&gt;
+I combine technical expertise with a solid understanding of business processes – from &lt;strong&gt;ERP systems&lt;/strong&gt; and &lt;strong&gt;process analysis tools&lt;/strong&gt; to &lt;strong&gt;data-driven solutions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Currently, I focus on &lt;strong&gt;modern programming languages&lt;/strong&gt; and &lt;strong&gt;full-stack development&lt;/strong&gt; to create high-performance and secure applications.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-work-approach--values&#34;&gt;🤝 Work Approach &amp;amp; Values&lt;/h2&gt;
+&lt;p&gt;I value &lt;strong&gt;communication on equal terms&lt;/strong&gt; – people come first, not just expertise.&lt;br&gt;
+I prefer identifying potential together rather than pushing pre-packaged solutions. I enjoy working with &lt;strong&gt;Design Thinking&lt;/strong&gt; and &lt;strong&gt;agile methodologies&lt;/strong&gt;.&lt;/p&gt;</description>
       
     </item>
     

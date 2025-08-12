@@ -87,5 +87,6 @@ $on-widescreen: 1152px;
 @import "listpage";
 @import "custom";
 
+{{ with .Site.Params.goToTop }}
 @import "goToTop";
-
+{{ end }}
