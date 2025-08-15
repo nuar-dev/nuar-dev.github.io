@@ -1,5 +1,23 @@
+# Hugo build artifacts
+/public/
+resources/
+hugo_cache/
 .hugo_build.lock
-.hvm
-exampleSite/public/
-exampleSite/resources/
-exampleSite/.hugo_build.lock
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+
+# Node (if you ever add tooling)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*

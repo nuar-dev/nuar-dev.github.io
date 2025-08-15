@@ -6,91 +6,38 @@
     <description>Recent content in Home on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Inhaltsverzeichnis</title>
-      <link>http://localhost:1313/posts/table-of-content/</link>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/table-of-content/</guid>
-      
-      <description>&lt;h2 id=&#34;inhaltsverzeichnis&#34;&gt;Inhaltsverzeichnis&lt;/h2&gt;
-&lt;p&gt;Dieses Theme unterstützt die Anzeige eines Inhaltsverzeichnisses (IVZ) für Blog Posts.&lt;/p&gt;
-&lt;h2 id=&#34;parameter&#34;&gt;Parameter&lt;/h2&gt;
-&lt;p&gt;You can manage a ToC with two parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;global &lt;code&gt;toc&lt;/code&gt; parameter;&lt;/li&gt;
-&lt;li&gt;post &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The post &lt;code&gt;toc&lt;/code&gt; parameter has higher priority than the global &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/p&gt;
-&lt;h2 id=&#34;enable-table-of-content-on-all-posts&#34;&gt;Enable table of content on all posts&lt;/h2&gt;
-&lt;p&gt;To enable ToC on all posts (globally) set parameter &lt;code&gt;toc&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;toc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To disable ToC globally, simply ignore the &lt;code&gt;toc&lt;/code&gt; parameter or set it to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Math Typesetting - use Mathematical notation in blog posts</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using
-&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/posts/placeholder-text/</link>
-      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/placeholder-text/</guid>
-      
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/about/</guid>
       
-      <description>&lt;h2 id=&#34;-über-mich&#34;&gt;👤 Über mich&lt;/h2&gt;
-&lt;p&gt;Technologiebegeisterter Prozessdenker mit einem klaren Ziel: &lt;strong&gt;Geschäftsprozesse effizienter, transparenter und nutzerorientierter zu gestalten&lt;/strong&gt;.&lt;br&gt;
-Ich verbinde technisches Know-how mit einem tiefen Verständnis für betriebswirtschaftliche Zusammenhänge – von &lt;strong&gt;ERP-Systemen&lt;/strong&gt; und &lt;strong&gt;Prozessanalyse-Tools&lt;/strong&gt; bis hin zu &lt;strong&gt;datengetriebenen Lösungen&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Aktuell beschäftige ich mich intensiv mit &lt;strong&gt;modernen Programmiersprachen&lt;/strong&gt; und &lt;strong&gt;Full-Stack-Entwicklung&lt;/strong&gt;, um leistungsfähige und sichere Anwendungen zu entwickeln.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-arbeitsweise--werte&#34;&gt;🤝 Arbeitsweise &amp;amp; Werte&lt;/h2&gt;
-&lt;p&gt;Ich lege großen Wert auf &lt;strong&gt;Kommunikation auf Augenhöhe&lt;/strong&gt; – für mich steht der Mensch im Mittelpunkt, nicht die reine Expertise.&lt;br&gt;
-Potenziale identifiziere ich lieber gemeinsam, anstatt fertige Lösungen aufzudrängen. Dabei nutze ich &lt;strong&gt;Design Thinking&lt;/strong&gt; und arbeite gerne mit &lt;strong&gt;agilen Methoden&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;sidequote&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/photo.webp&#34;
+       alt=&#34;Portrait&#34;
+       width=&#34;400&#34;
+       class=&#34;sidequote__img&#34;
+       loading=&#34;lazy&#34; /&gt;
+  &lt;div class=&#34;sidequote__content&#34;&gt;
+    &lt;blockquote&gt;
+&lt;p&gt;Wenn Menschen sprechen, höre ihnen ganz zu. Denke nicht darüber nach, was du als Nächstes sagen willst. Die meisten hören nie zu. Und sie beobachten auch nicht. Du solltest einen Raum betreten und, wenn du ihn verlässt, alles wissen, was du dort gesehen hast – und mehr noch: Wenn dieser Raum in dir ein Gefühl ausgelöst hat, solltest du genau wissen, wodurch dieses Gefühl entstanden ist.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;— &lt;cite&gt;Ernest Hemingway &lt;/cite&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Warehouse Strategies</title>
+      <link>http://localhost:1313/posts/warehouse_strategies/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/warehouse_strategies/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/warehouse_strategies/warehouse_project.svg&#34; alt=&#34;Process&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Die folgende Projektarbeit beschreibt die &lt;strong&gt;Analyse&lt;/strong&gt;, &lt;strong&gt;Konzeption&lt;/strong&gt; und &lt;strong&gt;Simulation&lt;/strong&gt; eines dynamischen, zonenbasierten Lagerkonzepts unter Einsatz moderner Analysemethoden wie &lt;code&gt;Process Mining&lt;/code&gt; und &lt;code&gt;Data Mining&lt;/code&gt;.&lt;br&gt;
+Ziel war die &lt;strong&gt;Optimierung der Lagerlogistik&lt;/strong&gt; unter realitätsnahen Bedingungen und die Bewertung anhand definierter Kennzahlen (KPIs).&lt;/p&gt;</description>
       
     </item>
     

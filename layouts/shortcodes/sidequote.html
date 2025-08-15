@@ -1,0 +1,10 @@
+<div class="sidequote">
+  <img src="{{ (.Get "src") | relURL }}"
+       alt="{{ .Get "alt" }}"
+       width="{{ with .Get "width" }}{{ . }}{{ else }}200{{ end }}"
+       class="sidequote__img"
+       loading="lazy" />
+  <div class="sidequote__content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

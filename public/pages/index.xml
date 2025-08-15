@@ -5,22 +5,29 @@
     <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>de</language>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/about/</guid>
       
-      <description>&lt;h2 id=&#34;-über-mich&#34;&gt;👤 Über mich&lt;/h2&gt;
-&lt;p&gt;Technologiebegeisterter Prozessdenker mit einem klaren Ziel: &lt;strong&gt;Geschäftsprozesse effizienter, transparenter und nutzerorientierter zu gestalten&lt;/strong&gt;.&lt;br&gt;
-Ich verbinde technisches Know-how mit einem tiefen Verständnis für betriebswirtschaftliche Zusammenhänge – von &lt;strong&gt;ERP-Systemen&lt;/strong&gt; und &lt;strong&gt;Prozessanalyse-Tools&lt;/strong&gt; bis hin zu &lt;strong&gt;datengetriebenen Lösungen&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Aktuell beschäftige ich mich intensiv mit &lt;strong&gt;modernen Programmiersprachen&lt;/strong&gt; und &lt;strong&gt;Full-Stack-Entwicklung&lt;/strong&gt;, um leistungsfähige und sichere Anwendungen zu entwickeln.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-arbeitsweise--werte&#34;&gt;🤝 Arbeitsweise &amp;amp; Werte&lt;/h2&gt;
-&lt;p&gt;Ich lege großen Wert auf &lt;strong&gt;Kommunikation auf Augenhöhe&lt;/strong&gt; – für mich steht der Mensch im Mittelpunkt, nicht die reine Expertise.&lt;br&gt;
-Potenziale identifiziere ich lieber gemeinsam, anstatt fertige Lösungen aufzudrängen. Dabei nutze ich &lt;strong&gt;Design Thinking&lt;/strong&gt; und arbeite gerne mit &lt;strong&gt;agilen Methoden&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;sidequote&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/about.webp&#34;
+       alt=&#34;Portrait&#34;
+       width=&#34;200&#34;
+       class=&#34;sidequote__img&#34;
+       loading=&#34;lazy&#34; /&gt;
+  &lt;div class=&#34;sidequote__content&#34;&gt;
+    &lt;blockquote&gt;
+&lt;p&gt;Ich mag es, Systeme, Prozesse und Menschen besser zu verstehen – je komplexer, desto besser.&lt;/p&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Mich fasziniert, wie aus vielen kleinen, scheinbar unzusammenhängenden Puzzleteilen ein funktionierendes Ganzes entsteht. Genau hier liegt der Kern meiner Arbeit: das Entwirren, Analysieren und Neuordnen.&lt;/p&gt;
+&lt;p&gt;In der Softwareentwicklung bedeutet das für mich, technische Probleme nicht nur zu lösen, sondern sie in einen größeren Zusammenhang zu stellen. Ich arbeite gern mit modernen Technologien wie &lt;code&gt;Rust&lt;/code&gt;, &lt;code&gt;TypeScript&lt;/code&gt; oder &lt;code&gt;C++&lt;/code&gt;, aber die Sprache oder das Framework sind für mich nie Selbstzweck. Entscheidend ist, dass die Lösung am Ende robust, effizient und verständlich ist – für diejenigen, die sie nutzen, und für diejenigen, die sie weiterentwickeln.&lt;/p&gt;</description>
       
     </item>
     

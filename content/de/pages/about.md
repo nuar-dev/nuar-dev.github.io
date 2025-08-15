@@ -1,35 +1,36 @@
 ---
-title: About
-description: 'About me'
-author: nuar-dev
+title: About Me
+date: 2025-08-15
+description: 'Professionelles Profil mit technischer Expertise, Prozessfokus und Motivation'
 ---
+{{< sidequote src="images/photo.webp" alt="Portrait" width="400" >}}
+> Wenn Menschen sprechen, höre ihnen ganz zu. Denke nicht darüber nach, was du als Nächstes sagen willst. Die meisten hören nie zu. Und sie beobachten auch nicht. Du solltest einen Raum betreten und, wenn du ihn verlässt, alles wissen, was du dort gesehen hast – und mehr noch: Wenn dieser Raum in dir ein Gefühl ausgelöst hat, solltest du genau wissen, wodurch dieses Gefühl entstanden ist.
 
-## 👤 Über mich
+> — <cite>Ernest Hemingway </cite>
+{{< /sidequote >}}
 
-Technologiebegeisterter Prozessdenker mit einem klaren Ziel: **Geschäftsprozesse effizienter, transparenter und nutzerorientierter zu gestalten**.  
-Ich verbinde technisches Know-how mit einem tiefen Verständnis für betriebswirtschaftliche Zusammenhänge – von **ERP-Systemen** und **Prozessanalyse-Tools** bis hin zu **datengetriebenen Lösungen**.
-
-Aktuell beschäftige ich mich intensiv mit **modernen Programmiersprachen** und **Full-Stack-Entwicklung**, um leistungsfähige und sichere Anwendungen zu entwickeln.  
-
----
-
-## 🤝 Arbeitsweise & Werte
-
-Ich lege großen Wert auf **Kommunikation auf Augenhöhe** – für mich steht der Mensch im Mittelpunkt, nicht die reine Expertise.  
-Potenziale identifiziere ich lieber gemeinsam, anstatt fertige Lösungen aufzudrängen. Dabei nutze ich **Design Thinking** und arbeite gerne mit **agilen Methoden**.
-
-Neue Technologien oder Themenfelder erschließe ich mir durch eine Kombination aus **tiefgehender Recherche** und **praktischen Projekten**.  
-Meine Stärken liegen in **kreativer Problemlösung** und darin, komplexe Prozesse effizienter zu gestalten.
+ 
+Ich arbeite dort, wo Technik und Geschäft zusammenfinden. Komplexe Sachverhalte ordne ich zu klaren Entscheidungen. Ich höre zu, stelle die nötigen Fragen und richte Ziele auf messbare Ergebnisse aus. Aus Anforderungen werden priorisierte Backlogs, aus Annahmen testbare Hypothesen, aus Roadmaps Releases. Ich übersetze zwischen Fachsprache und Engineering: präzise, ehrlich, pragmatisch. Analyse ist mein Werkzeug, Transparenz mein Stil. Entscheidungen treffe ich datenbasiert und passe sie mit Feedback an. Spannungen sehe ich als Signal; ich schaffe gemeinsame Bilder von Prozessen, Schnittstellen und Risiken – und sorge dafür, dass Teams sie teilen. Am Ende zählt Wirkung: dass Nutzer:innen verstehen, Teams verlässlich liefern und Systeme stabil bleiben. Dafür bringe ich Struktur, Empathie und eine Prise trockenen Humor.
 
 ---
 
-## 🎯 Motivation & Zielrichtung
+## 💻 Tech Stack
 
-Ich möchte meine technische Expertise und mein Prozessverständnis in Rollen einbringen, in denen **Optimierung, Kundenorientierung und wirtschaftlicher Nutzen** im Vordergrund stehen – z. B. im **technischen Vertrieb**, im **Projektmanagement** oder in **Product Owner**-ähnlichen Positionen.
+### Programmierung & Entwicklung
+```bash
+Sprachen:    Rust, JavaScript, TypeScript, C++, Python
+Frameworks:  React, Redux, Zustand
+Apps:        Tauri
+```
 
----
+### Daten & Analytik
+```bash
+Tools:       Power BI, SAP Analytics Cloud, Signavio
+Fokus:       Datenmodellierung, KPI-Dashboards, Process Mining
+```
 
-## 💡 Persönliches
-
-Ich habe eine ausgeprägte **Lern- und Entwicklungsmotivation** und interessiere mich für **internationale Kulturen**, **digitale Innovationen** und **kreative Technologien**.  
-Für mich sind **Neugier und kontinuierliches Lernen** der Schlüssel zu innovativen Lösungen.
+### ERP- & Geschäftssysteme
+```bash
+ERP:         SAP S/4HANA
+Expertise:   ERP-Prozessintegration, Optimierung
+```

@@ -1,3 +1,4 @@
 ---
-title: "Posts"
+title: "Home"
+author : "nuar-dev"
 ---
