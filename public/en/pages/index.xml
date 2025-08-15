@@ -6,36 +6,30 @@
     <description>Recent content in Pages on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/en/pages/about/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/en/pages/about/</guid>
       
-      <description>&lt;h2 id=&#34;-about-me&#34;&gt;👤 About Me&lt;/h2&gt;
-&lt;p&gt;I am a technology-driven &lt;strong&gt;process thinker&lt;/strong&gt; with a focus on &lt;code&gt;optimizing business processes&lt;/code&gt; and delivering &lt;code&gt;data-driven solutions&lt;/code&gt;.&lt;br&gt;
-I combine &lt;strong&gt;technical skills&lt;/strong&gt; with &lt;strong&gt;business understanding&lt;/strong&gt; to create workflows that are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;efficient&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;transparent&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;user-oriented&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Currently working on full-stack projects using &lt;code&gt;Rust&lt;/code&gt;, &lt;code&gt;Tauri&lt;/code&gt;, and modern front-end frameworks.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-tech-stack&#34;&gt;💻 Tech Stack&lt;/h2&gt;
-&lt;h3 id=&#34;programming--development&#34;&gt;Programming &amp;amp; Development&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Languages:   Rust, JavaScript, TypeScript
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Frameworks:  React, Redux, Zustand
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Apps:        Tauri &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;cross-platform desktop development&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;data--analytics&#34;&gt;Data &amp;amp; Analytics&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Tools:       Power BI, SAP Analytics Cloud, Signavio
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Focus:       Data modeling, KPI dashboards, process mining
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;erp--business-systems&#34;&gt;ERP &amp;amp; Business Systems&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ERP:         SAP S/4HANA &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;hands-on practice&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Expertise:   ERP process integration, optimization
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;sidequote&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/photo.webp&#34;
+       alt=&#34;Portrait&#34;
+       width=&#34;400&#34;
+       class=&#34;sidequote__img&#34;
+       loading=&#34;lazy&#34; /&gt;
+  &lt;div class=&#34;sidequote__content&#34;&gt;
+    &lt;blockquote&gt;
+&lt;p&gt;When people talk listen completely. Don’t be thinking what you’re going to say. Most people never listen. Nor do they observe. You should be able to go into a room and when you come out know everything that you saw there and not only that. If that room gave you any feeling you should know exactly what it was that gave you that feeling.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;— &lt;cite&gt;Ernest Hemingway&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I work where technology and business meet. I turn complex matters into clear decisions. I listen, ask the necessary questions, and align goals to measurable outcomes. Requirements become prioritized backlogs, assumptions become testable hypotheses, and roadmaps become releases. I translate between domain language and engineering—precise, candid, pragmatic. Analysis is my tool; transparency is my style. I make data-informed decisions and refine them with feedback. I treat tension as a signal: I create shared mental models of processes, interfaces, and risks—and ensure teams share them. In the end, impact is what counts: that users understand, teams deliver reliably, and systems remain stable. For that, I bring structure, empathy, and a dash of dry humor.&lt;/p&gt;</description>
       
     </item>
     

@@ -6,28 +6,25 @@
     <description>Recent content in Pages on nuar&#39;s dev-lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/about/</guid>
       
       <description>&lt;div class=&#34;sidequote&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/about.webp&#34;
+  &lt;img src=&#34;http://localhost:1313/images/photo.webp&#34;
        alt=&#34;Portrait&#34;
-       width=&#34;200&#34;
+       width=&#34;400&#34;
        class=&#34;sidequote__img&#34;
        loading=&#34;lazy&#34; /&gt;
   &lt;div class=&#34;sidequote__content&#34;&gt;
     &lt;blockquote&gt;
-&lt;p&gt;Ich mag es, Systeme, Prozesse und Menschen besser zu verstehen – je komplexer, desto besser.&lt;/p&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Mich fasziniert, wie aus vielen kleinen, scheinbar unzusammenhängenden Puzzleteilen ein funktionierendes Ganzes entsteht. Genau hier liegt der Kern meiner Arbeit: das Entwirren, Analysieren und Neuordnen.&lt;/p&gt;
-&lt;p&gt;In der Softwareentwicklung bedeutet das für mich, technische Probleme nicht nur zu lösen, sondern sie in einen größeren Zusammenhang zu stellen. Ich arbeite gern mit modernen Technologien wie &lt;code&gt;Rust&lt;/code&gt;, &lt;code&gt;TypeScript&lt;/code&gt; oder &lt;code&gt;C++&lt;/code&gt;, aber die Sprache oder das Framework sind für mich nie Selbstzweck. Entscheidend ist, dass die Lösung am Ende robust, effizient und verständlich ist – für diejenigen, die sie nutzen, und für diejenigen, die sie weiterentwickeln.&lt;/p&gt;</description>
+&lt;p&gt;Wenn Menschen sprechen, höre ihnen ganz zu. Denke nicht darüber nach, was du als Nächstes sagen willst. Die meisten hören nie zu. Und sie beobachten auch nicht. Du solltest einen Raum betreten und, wenn du ihn verlässt, alles wissen, was du dort gesehen hast – und mehr noch: Wenn dieser Raum in dir ein Gefühl ausgelöst hat, solltest du genau wissen, wodurch dieses Gefühl entstanden ist.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;— &lt;cite&gt;Ernest Hemingway &lt;/cite&gt;&lt;/p&gt;</description>
       
     </item>
     

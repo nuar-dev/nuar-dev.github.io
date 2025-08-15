@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/pages/about/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +26,19 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/pages/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
@@ -39,19 +52,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/pages/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/warehouse_strategies/</loc>
