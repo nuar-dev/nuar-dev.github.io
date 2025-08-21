@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Warehouse Strategies | nuar&#39;s dev-lab</title>
-<meta property="og:title" content="Warehouse Strategies | nuar&#39;s dev-lab" />
-<meta name="twitter:title" content="Warehouse Strategies | nuar&#39;s dev-lab" />
-<meta itemprop="name" content="Warehouse Strategies | nuar&#39;s dev-lab" />
-<meta name="application-name" content="Warehouse Strategies | nuar&#39;s dev-lab" />
+<title itemprop="name">Software-Project: Process Mining (WIP) | nuar&#39;s dev-lab</title>
+<meta property="og:title" content="Software-Project: Process Mining (WIP) | nuar&#39;s dev-lab" />
+<meta name="twitter:title" content="Software-Project: Process Mining (WIP) | nuar&#39;s dev-lab" />
+<meta itemprop="name" content="Software-Project: Process Mining (WIP) | nuar&#39;s dev-lab" />
+<meta name="application-name" content="Software-Project: Process Mining (WIP) | nuar&#39;s dev-lab" />
 <meta property="og:site_name" content="dev-lab von nuar" />
 
 <meta name="description" content="Entwicklung, Simulation und Bewertung eines dynamischen Lagerkonzepts mit Process Mining, Zonenstrategien und KPI-gestützter Entscheidungsfindung">
@@ -46,14 +46,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Warehouse Strategies",
+        "headline": "Software-Project: Process Mining (WIP)",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2025-08-12",
         "description": "Entwicklung, Simulation und Bewertung eines dynamischen Lagerkonzepts mit Process Mining, Zonenstrategien und KPI-gestützter Entscheidungsfindung",
-        "wordCount":  210 ,
+        "wordCount":  552 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-08-12",
         "image": {
@@ -73,7 +73,7 @@
     
     <meta property="og:url" content="http://localhost:1313/posts/warehouse_strategies/">
   <meta property="og:site_name" content="nuar&#39;s dev-lab">
-  <meta property="og:title" content="Warehouse Strategies">
+  <meta property="og:title" content="Software-Project: Process Mining (WIP)">
   <meta property="og:description" content="Entwicklung, Simulation und Bewertung eines dynamischen Lagerkonzepts mit Process Mining, Zonenstrategien und KPI-gestützter Entscheidungsfindung">
   <meta property="og:locale" content="de">
   <meta property="og:type" content="article">
@@ -85,7 +85,7 @@
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Warehouse Strategies">
+  <meta name="twitter:title" content="Software-Project: Process Mining (WIP)">
   <meta name="twitter:description" content="Entwicklung, Simulation und Bewertung eines dynamischen Lagerkonzepts mit Process Mining, Zonenstrategien und KPI-gestützter Entscheidungsfindung">
 
 
@@ -187,7 +187,7 @@ stroke-linejoin="round" class="feather feather-home">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
-                <h1 class="header-title">Warehouse Strategies</h1>
+                <h1 class="header-title">Software-Project: Process Mining (WIP)</h1>
                 
                 
                 
@@ -203,31 +203,104 @@ stroke-linejoin="round" class="feather feather-home">
         <nav id="TableOfContents">
   <ul>
     <li><a href="#-ausgangssituation">📦 Ausgangssituation</a></li>
-    <li><a href="#-projektziele">🎯 Projektziele</a></li>
-    <li><a href="#-lagerstrategien--zonenkonzept">🗂️ Lagerstrategien &amp; Zonenkonzept</a></li>
-    <li><a href="#-technische-umsetzung-der-simulation">⚙️ Technische Umsetzung der Simulation</a></li>
-    <li><a href="#-demo">🖼️ Demo</a></li>
+    <li><a href="#-zielsetzung-high-level">🎯 Zielsetzung (High-Level)</a></li>
+    <li><a href="#motivation-und-problemstellung">Motivation und Problemstellung</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#funktionale-anforderungen">Funktionale Anforderungen</a></li>
+    <li><a href="#nicht-funktionale-anforderungen">Nicht-Funktionale Anforderungen</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#projektorganisation">Projektorganisation</a></li>
+    <li><a href="#meilensteine">Meilensteine</a></li>
+    <li><a href="#resourcen">Resourcen</a>
+      <ul>
+        <li><a href="#verwendete-technologien">Verwendete Technologien</a></li>
+      </ul>
+    </li>
+    <li><a href="#risiken">Risiken</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#lagerstrategien">Lagerstrategien</a>
+      <ul>
+        <li><a href="#zonenkonzept">Zonenkonzept</a></li>
+        <li><a href="#-demo">🖼️ Demo</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </details>
             <div class="page-content">
-                <p><img src="/posts/warehouse_strategies/warehouse_project.svg" alt="Process"></p>
-<p>Die folgende Projektarbeit beschreibt die <strong>Analyse</strong>, <strong>Konzeption</strong> und <strong>Simulation</strong> eines dynamischen, zonenbasierten Lagerkonzepts unter Einsatz moderner Analysemethoden wie <code>Process Mining</code> und <code>Data Mining</code>.<br>
-Ziel war die <strong>Optimierung der Lagerlogistik</strong> unter realitätsnahen Bedingungen und die Bewertung anhand definierter Kennzahlen (KPIs).</p>
-<hr>
+                <h1 id="einleitung">Einleitung</h1>
 <h2 id="-ausgangssituation">📦 Ausgangssituation</h2>
-<p>Die Analyse zeigte, dass das bestehende <strong>Festplatzsystem</strong> zwar Transparenz und einfache Orientierung bietet, jedoch <strong>ungenügende Flexibilität</strong> für hochfrequentierte Artikel („High Runner“) aufweist.<br>
-Engpässe führten zu improvisierten Überlauflagerplätzen, die <strong>Schattenbestände</strong> und <strong>erhöhten manuellen Aufwand</strong> verursachten.</p>
-<hr>
-<h2 id="-projektziele">🎯 Projektziele</h2>
-<ul>
-<li>Entwicklung einer <strong>flexiblen Lagerstrategie</strong> zur Verbesserung der Flächenauslastung</li>
-<li>Einführung einer <strong>Zonenstruktur</strong> für unterschiedliche Artikel- und Prozessanforderungen</li>
-<li>Nutzung <strong>datenbasierter Simulationen</strong> zur Entscheidungsunterstützung</li>
-<li>Definition <strong>messbarer KPIs</strong> für eine spätere Erfolgskontrolle</li>
-</ul>
-<hr>
-<h2 id="-lagerstrategien--zonenkonzept">🗂️ Lagerstrategien &amp; Zonenkonzept</h2>
+<p>Im Rahmen einer SAP S/4HANA-Migration habe ich mich mit der Verbesserung von Geschäftsprozessen beschäftigt. Im Vordergrund stand die Frage, wie das neue ERP-System bestehende Abläufe positiv beeinflussen kann.</p>
+<p>Eine besondere Herausforderung bestand darin, mit begrenzten Ressourcen möglichst schnell zu belastbaren Ergebnissen zu gelangen. Meine konkrete Aufgabe war die Umstellung des Kommissionierlagers vom Festplatzsystem auf eine chaotische Lagerhaltung.</p>
+<p>Bei der Analyse zeigte sich jedoch, dass eine isolierte Änderung der Lagerstrategie keine nachhaltige Lösung im Kontext einer Systemkonvertierung darstellt. Vielmehr rückte die ganzheitliche Betrachtung von End-to-End-Prozessen in den Fokus.</p>
+<p>Um eine robuste und flexible Lösung zu entwickeln, habe ich mich entschieden, gängige Industriestandards bestmöglich zu berücksichtigen und als „Overlay-Lösung“ einzubinden. Dadurch bleibt das Unternehmen unabhängig von spezifischen Produkten einzelner Anbieter (z. B. Signavio von SAP). Gleichzeitig ermöglicht dieses Vorgehen ein internes Benchmarking: Eigene Prozesse können den Angeboten von IT-Dienstleistern gegenübergestellt und deren tatsächlicher Mehrwert realistisch eingeschätzt werden.</p>
+<p>Darüber hinaus soll diese Arbeit unter Einbindung von Open-Source-Technologien realisiert werden, um eine nachhaltige, nicht-proprietäre und auditierbare Analytik-Lösung bereitzustellen. Das ist relevant, weil dadurch Vendor-Lock-in vermieden, Kosten- und Update-Zyklen besser gesteuert, Transparenz über Algorithmen und Datenflüsse gesichert und die Anpassungsfähigkeit an sich ändernde Prozesse sowie S/4HANA-Release-Stände verbessert wird. Aufgrund des notwendigen Aufbaus von Daten- und KPI-Governance, der schrittweisen Integration mehrerer Quellsysteme und der iterativen Prozessverbesserung ist das Vorhaben bewusst als mehrjähriges Programm angelegt: zunächst Pilotierung (Discovery/Conformance) in Kernprozessen, anschließend Ausbau um Performance-Analysen und KPI-Steuerung, dann Skalierung auf weitere Bereiche mit Automatisierung, Benchmarking und kontinuierlicher Optimierung.</p>
+<h2 id="-zielsetzung-high-level">🎯 Zielsetzung (High-Level)</h2>
+<p>Zentralisierte Oberfläche (<code>MUI</code>) mit der Prozesse analysiert und optimiert werden:</p>
+<table>
+  <thead>
+      <tr>
+          <th><em>Phase</em></th>
+          <th><p style="text-align:center;"> <strong>Feature</strong> </p></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><p style="text-align:center;"><em>0</em></p></td>
+          <td><p style="text-align:center;"> <strong>Prozessentdeckung</strong> </p> <br> <p style="text-align:left;"> Die Oberfläche soll automatisch Ist-Prozesse aus Event Logs extrahieren und verständlich visualisieren. So entsteht Transparenz über reale Abläufe, inklusive Varianten und Abweichungen. Nutzer sehen auf einen Blick, wie Prozesse tatsächlich laufen – unabhängig von Soll-Modellen oder Annahmen.</p></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>🔍 <strong>Transparenz</strong> <br>🌐 <strong>Varianten erkennen</strong> <br>📊 <strong>Faktenbasis schaffen</strong></td>
+      </tr>
+      <tr>
+          <td><p style="text-align:center;"><em>1</em></p></td>
+          <td><p style="text-align:center;"> <strong>Konformitätsprüfung</strong></p> <br> <p style="text-align:left;"> DDie Oberfläche soll Ist-Prozesse mit vorgegebenen Sollmodellen vergleichen. Abweichungen werden automatisch identifiziert und visualisiert, sodass Regelverstöße, Workarounds oder Ineffizienzen sofort erkennbar sind.</p></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>✅ <strong>Compliance sichern</strong> <br>⚖️ <strong>Prozesstreue überprüfen</strong> <br>🚦 <strong>Prozessqualität steigern</strong></td>
+      </tr>
+      <tr>
+          <td><p style="text-align:center;"><em>2</em></p></td>
+          <td><p style="text-align:center;"><strong>Erweiterung</strong></p><br> <p style="text-align:left;"> Die Oberfläche soll Prozessmodelle mit zusätzlichen Informationen anreichern – z. B. Durchlaufzeiten, Ressourcenauslastung oder Engpässe. Dashboards stellen relevante KPIs dar, während Verfahren wie Predictive Analytics Prognosen über mögliche Verzögerungen oder Risiken erlauben. </p></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>⏱️ <strong>Leistung messen</strong> <br>🧭 <strong>Bottlenecks erkennen</strong><br>🔮 <strong>Risiken vorhersagen</strong></td>
+      </tr>
+      <tr>
+          <td><p style="text-align:center;"><em>3</em></p></td>
+          <td><p style="text-align:center;"><strong>Prozessverbesserung</strong></p><br> <p style="text-align:left;"> Die Oberfläche soll die aktive Optimierung von Soll-Prozessen unterstützen. Dazu gehören Simulationen („What-if“-Szenarien), automatisierte Verbesserungsvorschläge und Vergleiche mit Best-Practice-Referenzmodellen. So lassen sich Prozesse iterativ neu gestalten und nachhaltig optimieren.</p></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>🛠️ <strong>Prozesse gezielt anpassen</strong><br>🎯 <strong>Optimierungen simulieren</strong><br>♻️ <strong>kontinuierlich verbessern</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="motivation-und-problemstellung">Motivation und Problemstellung</h2>
+<h1 id="anforderungen">Anforderungen</h1>
+<h2 id="funktionale-anforderungen">Funktionale Anforderungen</h2>
+<h2 id="nicht-funktionale-anforderungen">Nicht-Funktionale Anforderungen</h2>
+<h1 id="system--und-projektplanung">System- und Projektplanung</h1>
+<h2 id="projektorganisation">Projektorganisation</h2>
+<h2 id="meilensteine">Meilensteine</h2>
+<h2 id="resourcen">Resourcen</h2>
+<h3 id="verwendete-technologien">Verwendete Technologien</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Sprachen: Rust, Typescript, Javascript
+</span></span><span class="line"><span class="cl">Frameworks: React, Zustand, MUI, Tauri
+</span></span><span class="line"><span class="cl">Datenbanken: NoSql, HANA
+</span></span></code></pre></div><h2 id="risiken">Risiken</h2>
+<h1 id="analyse-und-entwurf">Analyse und Entwurf</h1>
+<h2 id="lagerstrategien">Lagerstrategien</h2>
+<h3 id="zonenkonzept">Zonenkonzept</h3>
 <p>Die Lagerfläche wurde in <strong>funktionale Zonen</strong> unterteilt, z. B.:</p>
 <table>
   <thead>
@@ -271,15 +344,25 @@ Engpässe führten zu improvisierten Überlauflagerplätzen, die <strong>Schatte
   </tbody>
 </table>
 <blockquote>
-<p><strong>Hinweis:</strong> Die chaotische Lagerstrategie wurde gezielt <strong>innerhalb bestimmter Zonen</strong> eingesetzt, um Flexibilität und Auslastung zu optimieren.</p></blockquote>
-<hr>
-<h2 id="-technische-umsetzung-der-simulation">⚙️ Technische Umsetzung der Simulation</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Sprache:     Rust        <span class="c1"># Performance &amp; Sicherheit</span>
-</span></span><span class="line"><span class="cl">Framework:   Tauri       <span class="c1"># Schlanke Cross-Platform-UI</span>
-</span></span><span class="line"><span class="cl">Methoden:    Process Mining, Data Mining
-</span></span><span class="line"><span class="cl">Ziel:        Vergleich Festplatzlogik vs. dynamische Zonenzuteilung
-</span></span></code></pre></div><h2 id="-demo">🖼️ Demo</h2>
-<p><img src="/posts/warehouse_strategies/demo.gif" alt="Demo"></p>
+<p><strong>Hinweis:</strong> Die chaotische Lagerstrategie soll gezielt <strong>innerhalb bestimmter Zonen</strong> eingesetzt werden, um Flexibilität und Auslastung zu optimieren.</p></blockquote>
+<h3 id="-demo">🖼️ Demo</h3>
+<div class="sidequote">
+  <img src="/images/demo.gif"
+       alt="demo"
+       width="200"
+       class="sidequote__img"
+       loading="lazy" />
+  <div class="sidequote__content">
+    <blockquote>
+<p><a href="https://github.com/nuar-dev/warehouse_strategies_exemplified">Programmatische</a> Betrachtung der Auslastung eines Kommissionierlagers</p></blockquote>
+  </div>
+</div>
+
+<p>Die Demo veranschaulicht, wie dynamische Lagerkonzepte die Auslastung sowie Lagerkennzahlen verbessern können.</p>
+<h1 id="implementierung">Implementierung</h1>
+<h1 id="testen">Testen</h1>
+<h1 id="ergebnisse">Ergebnisse</h1>
+
             </div>
         </article></main>
 </div>

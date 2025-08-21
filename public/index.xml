@@ -17,7 +17,7 @@
       <description>&lt;div class=&#34;sidequote&#34;&gt;
   &lt;img src=&#34;http://localhost:1313/images/photo.webp&#34;
        alt=&#34;Portrait&#34;
-       width=&#34;400&#34;
+       width=&#34;200&#34;
        class=&#34;sidequote__img&#34;
        loading=&#34;lazy&#34; /&gt;
   &lt;div class=&#34;sidequote__content&#34;&gt;
@@ -29,15 +29,17 @@
     </item>
     
     <item>
-      <title>Warehouse Strategies</title>
+      <title>Software-Project: Process Mining (WIP)</title>
       <link>http://localhost:1313/posts/warehouse_strategies/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/warehouse_strategies/</guid>
       
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/warehouse_strategies/warehouse_project.svg&#34; alt=&#34;Process&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Die folgende Projektarbeit beschreibt die &lt;strong&gt;Analyse&lt;/strong&gt;, &lt;strong&gt;Konzeption&lt;/strong&gt; und &lt;strong&gt;Simulation&lt;/strong&gt; eines dynamischen, zonenbasierten Lagerkonzepts unter Einsatz moderner Analysemethoden wie &lt;code&gt;Process Mining&lt;/code&gt; und &lt;code&gt;Data Mining&lt;/code&gt;.&lt;br&gt;
-Ziel war die &lt;strong&gt;Optimierung der Lagerlogistik&lt;/strong&gt; unter realitätsnahen Bedingungen und die Bewertung anhand definierter Kennzahlen (KPIs).&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;einleitung&#34;&gt;Einleitung&lt;/h1&gt;
+&lt;h2 id=&#34;-ausgangssituation&#34;&gt;📦 Ausgangssituation&lt;/h2&gt;
+&lt;p&gt;Im Rahmen einer SAP S/4HANA-Migration habe ich mich mit der Verbesserung von Geschäftsprozessen beschäftigt. Im Vordergrund stand die Frage, wie das neue ERP-System bestehende Abläufe positiv beeinflussen kann.&lt;/p&gt;
+&lt;p&gt;Eine besondere Herausforderung bestand darin, mit begrenzten Ressourcen möglichst schnell zu belastbaren Ergebnissen zu gelangen. Meine konkrete Aufgabe war die Umstellung des Kommissionierlagers vom Festplatzsystem auf eine chaotische Lagerhaltung.&lt;/p&gt;
+&lt;p&gt;Bei der Analyse zeigte sich jedoch, dass eine isolierte Änderung der Lagerstrategie keine nachhaltige Lösung im Kontext einer Systemkonvertierung darstellt. Vielmehr rückte die ganzheitliche Betrachtung von End-to-End-Prozessen in den Fokus.&lt;/p&gt;</description>
       
     </item>
     

@@ -17,7 +17,7 @@
       <description>&lt;div class=&#34;sidequote&#34;&gt;
   &lt;img src=&#34;http://localhost:1313/images/photo.webp&#34;
        alt=&#34;Portrait&#34;
-       width=&#34;400&#34;
+       width=&#34;200&#34;
        class=&#34;sidequote__img&#34;
        loading=&#34;lazy&#34; /&gt;
   &lt;div class=&#34;sidequote__content&#34;&gt;
