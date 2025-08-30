@@ -38,7 +38,7 @@ Hosting:     GitHub Pages, Netlify; einfache VPS-Setups
 Versionierung: Git (GitHub/GitLab), Conventional Commits, Trunk/PR-Workflows
 ```
 
-### Daten & Analytik
+### Daten & Analytik    
 ```bash
 Sprachen:    Python (pandas, numpy), R (tidyverse)
 BI:          Power BI, SAP Analytics Cloud (SAC)

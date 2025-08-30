@@ -8,7 +8,7 @@
     <language>de</language>
     <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Software-Project: Process Mining</title>
+      <title>Software-Project: Process Mining (WIP)</title>
       <link>http://localhost:1313/posts/warehouse_strategies/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       
@@ -18,120 +18,7 @@
 &lt;h2 id=&#34;-ausgangssituation&#34;&gt;📦 Ausgangssituation&lt;/h2&gt;
 &lt;p&gt;Im Rahmen einer SAP S/4HANA-Migration habe ich mich mit der Verbesserung von Geschäftsprozessen beschäftigt. Im Vordergrund stand die Frage, wie das neue ERP-System bestehende Abläufe positiv beeinflussen kann.&lt;/p&gt;
 &lt;p&gt;Eine besondere Herausforderung bestand darin, mit begrenzten Ressourcen möglichst schnell zu belastbaren Ergebnissen zu gelangen. Meine konkrete Aufgabe war die Umstellung des Kommissionierlagers vom Festplatzsystem auf eine chaotische Lagerhaltung.&lt;/p&gt;
-&lt;p&gt;Bei der Analyse zeigte sich jedoch, dass eine isolierte Änderung der Lagerstrategie keine nachhaltige Lösung im Kontext einer Systemkonvertierung darstellt. Vielmehr rückte die ganzheitliche Betrachtung von End-to-End-Prozessen in den Fokus.&lt;/p&gt;
-&lt;p&gt;Um eine robuste und flexible Lösung zu entwickeln, habe ich mich entschieden, gängige Industriestandards bestmöglich zu berücksichtigen und als „Overlay-Lösung“ einzubinden. Dadurch bleibt das Unternehmen unabhängig von spezifischen Produkten einzelner Anbieter (z. B. Signavio von SAP). Gleichzeitig ermöglicht dieses Vorgehen ein internes Benchmarking: Eigene Prozesse können den Angeboten von IT-Dienstleistern gegenübergestellt und deren tatsächlicher Mehrwert realistisch eingeschätzt werden.&lt;/p&gt;
-&lt;p&gt;Darüber hinaus soll diese Arbeit unter Einbindung von Open-Source-Technologien realisiert werden, um eine nachhaltige, nicht-proprietäre und auditierbare Analytik-Lösung bereitzustellen. Das ist relevant, weil dadurch Vendor-Lock-in vermieden, Kosten- und Update-Zyklen besser gesteuert, Transparenz über Algorithmen und Datenflüsse gesichert und die Anpassungsfähigkeit an sich ändernde Prozesse sowie S/4HANA-Release-Stände verbessert wird. Aufgrund des notwendigen Aufbaus von Daten- und KPI-Governance, der schrittweisen Integration mehrerer Quellsysteme und der iterativen Prozessverbesserung ist das Vorhaben bewusst als mehrjähriges Programm angelegt: zunächst Pilotierung (Discovery/Conformance) in Kernprozessen, anschließend Ausbau um Performance-Analysen und KPI-Steuerung, dann Skalierung auf weitere Bereiche mit Automatisierung, Benchmarking und kontinuierlicher Optimierung.&lt;/p&gt;
-&lt;h2 id=&#34;-zielsetzung-high-level&#34;&gt;🎯 Zielsetzung (High-Level)&lt;/h2&gt;
-&lt;p&gt;Zentralisierte Oberfläche (&lt;code&gt;MUI&lt;/code&gt;) mit der Prozesse analysiert und optimiert werden:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;em&gt;Phase&lt;/em&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;p style=&#34;text-align:center;&#34;&gt; &lt;strong&gt;Feature&lt;/strong&gt; &lt;/p&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;em&gt;0&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt; &lt;strong&gt;Prozessentdeckung&lt;/strong&gt; &lt;/p&gt; &lt;br&gt; &lt;p style=&#34;text-align:left;&#34;&gt; Die Oberfläche soll automatisch Ist-Prozesse aus Event Logs extrahieren und verständlich visualisieren. So entsteht Transparenz über reale Abläufe, inklusive Varianten und Abweichungen. Nutzer sehen auf einen Blick, wie Prozesse tatsächlich laufen – unabhängig von Soll-Modellen oder Annahmen.&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;🔍 &lt;strong&gt;Transparenz&lt;/strong&gt; &lt;br&gt;🌐 &lt;strong&gt;Varianten erkennen&lt;/strong&gt; &lt;br&gt;📊 &lt;strong&gt;Faktenbasis schaffen&lt;/strong&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;em&gt;1&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt; &lt;strong&gt;Konformitätsprüfung&lt;/strong&gt;&lt;/p&gt; &lt;br&gt; &lt;p style=&#34;text-align:left;&#34;&gt; DDie Oberfläche soll Ist-Prozesse mit vorgegebenen Sollmodellen vergleichen. Abweichungen werden automatisch identifiziert und visualisiert, sodass Regelverstöße, Workarounds oder Ineffizienzen sofort erkennbar sind.&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;✅ &lt;strong&gt;Compliance sichern&lt;/strong&gt; &lt;br&gt;⚖️ &lt;strong&gt;Prozesstreue überprüfen&lt;/strong&gt; &lt;br&gt;🚦 &lt;strong&gt;Prozessqualität steigern&lt;/strong&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;em&gt;2&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;strong&gt;Erweiterung&lt;/strong&gt;&lt;/p&gt;&lt;br&gt; &lt;p style=&#34;text-align:left;&#34;&gt; Die Oberfläche soll Prozessmodelle mit zusätzlichen Informationen anreichern – z. B. Durchlaufzeiten, Ressourcenauslastung oder Engpässe. Dashboards stellen relevante KPIs dar, während Verfahren wie Predictive Analytics Prognosen über mögliche Verzögerungen oder Risiken erlauben. &lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;⏱️ &lt;strong&gt;Leistung messen&lt;/strong&gt; &lt;br&gt;🧭 &lt;strong&gt;Bottlenecks erkennen&lt;/strong&gt;&lt;br&gt;🔮 &lt;strong&gt;Risiken vorhersagen&lt;/strong&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;em&gt;3&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;p style=&#34;text-align:center;&#34;&gt;&lt;strong&gt;Prozessverbesserung&lt;/strong&gt;&lt;/p&gt;&lt;br&gt; &lt;p style=&#34;text-align:left;&#34;&gt; Die Oberfläche soll die aktive Optimierung von Soll-Prozessen unterstützen. Dazu gehören Simulationen („What-if“-Szenarien), automatisierte Verbesserungsvorschläge und Vergleiche mit Best-Practice-Referenzmodellen. So lassen sich Prozesse iterativ neu gestalten und nachhaltig optimieren.&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;🛠️ &lt;strong&gt;Prozesse gezielt anpassen&lt;/strong&gt;&lt;br&gt;🎯 &lt;strong&gt;Optimierungen simulieren&lt;/strong&gt;&lt;br&gt;♻️ &lt;strong&gt;kontinuierlich verbessern&lt;/strong&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;motivation-und-problemstellung&#34;&gt;Motivation und Problemstellung&lt;/h2&gt;
-&lt;h1 id=&#34;anforderungen&#34;&gt;Anforderungen&lt;/h1&gt;
-&lt;h2 id=&#34;funktionale-anforderungen&#34;&gt;Funktionale Anforderungen&lt;/h2&gt;
-&lt;h2 id=&#34;nicht-funktionale-anforderungen&#34;&gt;Nicht-Funktionale Anforderungen&lt;/h2&gt;
-&lt;h1 id=&#34;system--und-projektplanung&#34;&gt;System- und Projektplanung&lt;/h1&gt;
-&lt;h2 id=&#34;projektorganisation&#34;&gt;Projektorganisation&lt;/h2&gt;
-&lt;h2 id=&#34;meilensteine&#34;&gt;Meilensteine&lt;/h2&gt;
-&lt;h2 id=&#34;resourcen&#34;&gt;Resourcen&lt;/h2&gt;
-&lt;h3 id=&#34;verwendete-technologien&#34;&gt;Verwendete Technologien&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sprachen: Rust, Typescript, Javascript
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Frameworks: React, Zustand, MUI, Tauri
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Datenbanken: NoSql, HANA
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;risiken&#34;&gt;Risiken&lt;/h2&gt;
-&lt;h1 id=&#34;analyse-und-entwurf&#34;&gt;Analyse und Entwurf&lt;/h1&gt;
-&lt;h2 id=&#34;lagerstrategien&#34;&gt;Lagerstrategien&lt;/h2&gt;
-&lt;h3 id=&#34;zonenkonzept&#34;&gt;Zonenkonzept&lt;/h3&gt;
-&lt;p&gt;Die Lagerfläche wurde in &lt;strong&gt;funktionale Zonen&lt;/strong&gt; unterteilt, z. B.:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Zone&lt;/th&gt;
-          &lt;th&gt;Zweck&lt;/th&gt;
-          &lt;th&gt;Relevante Strategien&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;High-Runner-Zone&lt;/td&gt;
-          &lt;td&gt;Schneller Zugriff auf häufig genutzte Artikel&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;ABC-Analyse&lt;/code&gt;, &lt;code&gt;FIFO&lt;/code&gt;, &lt;code&gt;Slotting&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Gefahrstoffzone&lt;/td&gt;
-          &lt;td&gt;Sichere Lagerung gesetzlich regulierter Güter&lt;/td&gt;
-          &lt;td&gt;Lagerklassensteuerung, Zutrittskontrolle&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Qualitätsprüfzone&lt;/td&gt;
-          &lt;td&gt;Wareneingangskontrolle&lt;/td&gt;
-          &lt;td&gt;Quarantäne- &amp;amp; Prüflagerstrategie&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;VAS-Zone&lt;/td&gt;
-          &lt;td&gt;Value Added Services (Kitting, Etikettierung)&lt;/td&gt;
-          &lt;td&gt;Arbeitsplatzorientierte Steuerung&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Kommissionierzone&lt;/td&gt;
-          &lt;td&gt;Pick &amp;amp; Pack / Multi-Order-Picking&lt;/td&gt;
-          &lt;td&gt;Kommissionierstrategie&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Versorgungszone&lt;/td&gt;
-          &lt;td&gt;Just-in-Time Materialbereitstellung&lt;/td&gt;
-          &lt;td&gt;Kanban, Replenishment&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die chaotische Lagerstrategie soll gezielt &lt;strong&gt;innerhalb bestimmter Zonen&lt;/strong&gt; eingesetzt werden, um Flexibilität und Auslastung zu optimieren.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;-demo&#34;&gt;🖼️ Demo&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/warehouse_strategies/demo.gif&#34; alt=&#34;Festplatz vs. Chaotisch vs Hybridzonen&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;implementierung&#34;&gt;Implementierung&lt;/h1&gt;
-&lt;h1 id=&#34;testen&#34;&gt;Testen&lt;/h1&gt;
-&lt;h1 id=&#34;ergebnisse&#34;&gt;Ergebnisse&lt;/h1&gt;
-&lt;p&gt;Die folgende Projektarbeit beschreibt die &lt;strong&gt;Analyse&lt;/strong&gt;, &lt;strong&gt;Konzeption&lt;/strong&gt; und &lt;strong&gt;Simulation&lt;/strong&gt; eines dynamischen, zonenbasierten Lagerkonzepts unter Einsatz moderner Analysemethoden wie &lt;code&gt;Process Mining&lt;/code&gt; und &lt;code&gt;Data Mining&lt;/code&gt;.&lt;br&gt;
-Ziel war die &lt;strong&gt;Optimierung der Lagerlogistik&lt;/strong&gt; unter realitätsnahen Bedingungen und die Bewertung anhand definierter Kennzahlen (KPIs).&lt;/p&gt;</description>
+&lt;p&gt;Bei der Analyse zeigte sich jedoch, dass eine isolierte Änderung der Lagerstrategie keine nachhaltige Lösung im Kontext einer Systemkonvertierung darstellt. Vielmehr rückte die ganzheitliche Betrachtung von End-to-End-Prozessen in den Fokus.&lt;/p&gt;</description>
       
     </item>
     

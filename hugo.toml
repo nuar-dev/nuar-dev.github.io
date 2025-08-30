@@ -120,7 +120,7 @@ name = "Email"
 url = "mailto:nuar@nuar.de"
 [[Languages.en.params.socialIcons]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/frank-streicher-43b7a2365/"
+url = "https://www.linkedin.com/in/frank-s-43b7a2365/"
 ############################## German language ################################
 [Languages.de]
   languageName = "Deutsch"
@@ -195,4 +195,4 @@ name = "Email"
 url = "mailto:nuar@nuar.de"
 [[Languages.de.params.socialIcons]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/frank-streicher-43b7a2365/"
+url = "https://www.linkedin.com/in/frank-s-43b7a2365/"
