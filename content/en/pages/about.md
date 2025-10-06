@@ -9,7 +9,7 @@ description: Professional profile with technical expertise, process focus, and m
 > — <cite>Ernest Hemingway</cite>
 {{< /sidequote >}}
 
-I work where technology and business meet. I turn complex matters into clear decisions. I listen, ask the necessary questions, and align goals to measurable outcomes. Requirements become prioritized backlogs, assumptions become testable hypotheses, and roadmaps become releases. I translate between domain language and engineering—precise, candid, pragmatic. Analysis is my tool; transparency is my style. I make data-informed decisions and refine them with feedback. I treat tension as a signal: I create shared mental models of processes, interfaces, and risks—and ensure teams share them. In the end, impact is what counts: that users understand, teams deliver reliably, and systems remain stable. For that, I bring structure, empathy, and a dash of dry humor.
+I work where technology and business meet. I turn complex matters into clear decisions. I listen, ask the necessary questions, and align goals to measurable outcomes. Requirements become prioritized backlogs, assumptions become testable hypotheses, and roadmaps become releases. I translate between domain language and engineering-precise, candid, pragmatic. Analysis is my tool; transparency is my style. I make data-informed decisions and refine them with feedback. I treat tension as a signal: I create shared mental models of processes, interfaces, and risks - and ensure teams share them. In the end, impact is what counts: that users understand, teams deliver reliably, and systems remain stable. For that, I bring structure, empathy, and a dash of dry humor.
 
 ---
 

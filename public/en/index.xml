@@ -29,7 +29,22 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;I work where technology and business meet. I turn complex matters into clear decisions. I listen, ask the necessary questions, and align goals to measurable outcomes. Requirements become prioritized backlogs, assumptions become testable hypotheses, and roadmaps become releases. I translate between domain language and engineering—precise, candid, pragmatic. Analysis is my tool; transparency is my style. I make data-informed decisions and refine them with feedback. I treat tension as a signal: I create shared mental models of processes, interfaces, and risks—and ensure teams share them. In the end, impact is what counts: that users understand, teams deliver reliably, and systems remain stable. For that, I bring structure, empathy, and a dash of dry humor.&lt;/p&gt;</description>
+&lt;p&gt;I work where technology and business meet. I turn complex matters into clear decisions. I listen, ask the necessary questions, and align goals to measurable outcomes. Requirements become prioritized backlogs, assumptions become testable hypotheses, and roadmaps become releases. I translate between domain language and engineering-precise, candid, pragmatic. Analysis is my tool; transparency is my style. I make data-informed decisions and refine them with feedback. I treat tension as a signal: I create shared mental models of processes, interfaces, and risks - and ensure teams share them. In the end, impact is what counts: that users understand, teams deliver reliably, and systems remain stable. For that, I bring structure, empathy, and a dash of dry humor.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Software Project: Process Mining (WIP)</title>
+      <link>http://localhost:1313/en/posts/process_mining/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/process_mining/</guid>
+      
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&#34;-initial-situation&#34;&gt;📦 Initial Situation&lt;/h2&gt;
+&lt;p&gt;As part of an SAP S/4HANA migration, I focused on improving business processes. The central question was how the new ERP system could positively influence existing workflows.&lt;/p&gt;
+&lt;p&gt;One key challenge was achieving reliable results quickly with limited resources. My specific task was to transition the picking warehouse from a fixed-location storage system to a chaotic (random) storage approach.&lt;/p&gt;
+&lt;p&gt;However, the analysis showed that an isolated change in warehouse strategy would not provide a sustainable solution in the context of a system conversion. Instead, the focus shifted toward a holistic view of end-to-end processes.&lt;/p&gt;</description>
       
     </item>
     
