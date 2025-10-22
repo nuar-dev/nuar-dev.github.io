@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>💰 Monthly Budget Calculator (OOP + Debug Version)</title>
+
+  <!-- External Libraries -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="has-background-light">
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">💰 Monthly Budget Calculator</h1>
+
+      <!-- Entry Form -->
+      <div class="box">
+        <div class="columns is-vcentered is-multiline">
+          <div class="column is-one-quarter">
+            <label class="label">Type</label>
+            <div class="select is-fullwidth">
+              <select id="entryType">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter">
+            <label class="label">Name</label>
+            <input class="input" id="entryName" type="text" placeholder="e.g. Rent, Salary" required>
+          </div>
+
+          <div class="column is-one-quarter">
+            <label class="label">Amount</label>
+            <input class="input" id="entryAmount" type="number" step="0.01" placeholder="e.g. 1000" required>
+          </div>
+
+          <div class="column is-one-quarter" id="multiplierColumn" style="display:none;">
+            <label class="label">Multiplier (optional)</label>
+            <input class="input" id="entryMultiplier" type="number" step="0.1" min="0" value="1">
+            <p class="help">Leave as 1 for fixed expenses</p>
+          </div>
+
+          <div class="column is-full">
+            <button type="button" class="button is-primary is-fullwidth" id="addButton">
+              <span class="icon"><i class="fas fa-plus"></i></span>
+              <span>Add Entry</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entries Table -->
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Entries</p>
+        </header>
+        <div class="card-content">
+          <table class="table is-striped is-fullwidth" id="entriesTable">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <p id="total" class="has-text-right has-text-weight-bold mt-3">Remaining: $0.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Script -->
+  <script src="script.js"></script>
+</body>
+</html>

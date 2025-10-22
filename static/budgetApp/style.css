@@ -1,0 +1,39 @@
+/* =====================================
+   Monthly Budget Calculator - Custom Style
+   ===================================== */
+
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1.title {
+  margin-bottom: 2rem;
+  color: #363636;
+}
+
+.box {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+#total {
+  font-size: 1.2rem;
+}
+
+.has-text-success {
+  color: #23d160 !important;
+}
+
+.has-text-danger {
+  color: #ff3860 !important;
+}
