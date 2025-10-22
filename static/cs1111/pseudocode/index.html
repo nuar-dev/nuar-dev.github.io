@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudocode: Monthly BudgetingApp</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-basic.min.js"></script>
+
+  <style>
+    body {
+      background: #fafafa;
+      color: #111;
+      font-family: "Times New Roman", Georgia, serif;
+      line-height: 1.6;
+      margin: 2rem auto;
+      max-width: 1200px;
+    }
+    h2 {
+      text-align: center;
+      font-family: "Georgia", serif;
+      font-weight: 600;
+    }
+    pre {
+      background: #f7f7f7;           
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1.2em;
+      overflow-x: auto;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      font-family: "Courier New", monospace;
+    }
+  </style>
+</head>
+
+<body>
+
+<pre><code class="language-basic">
+MAIN MODULE: Monthly BudgetingApp
+
+    CREATE an empty list of budget entries
+    SET the program status to running
+
+    WHILE the program is running DO
+
+        DISPLAY a welcome message
+        DISPLAY all current budget entries with their names and amounts
+
+        DISPLAY a menu of options:
+            1. Add Income
+            2. Add Fixed Expense
+            3. Add Variable Expense
+            4. Calculate Total and Exit
+
+        PROMPT the user for a choice
+
+        CASE based on user choice:
+
+            OPTION 1:
+                ASK the user to enter the name and amount of income
+                IF the amount is valid THEN
+                    ADD the income to the list of entries
+                ELSE
+                    DISPLAY an error message
+                END IF
+
+            OPTION 2:
+                ASK the user to enter the name and amount of a fixed expense
+                IF the amount is valid THEN
+                    ADD the fixed expense to the list of entries
+                ELSE
+                    DISPLAY an error message
+                END IF
+
+            OPTION 3:
+                ASK the user to enter the name, base amount, and multiplier for a variable expense
+                IF the inputs are valid THEN
+                    ADD the variable expense to the list of entries
+                ELSE
+                    DISPLAY an error message
+                END IF
+
+            OPTION 4:
+                COMPUTE the total balance by summing all incomes and subtracting all expenses
+                DISPLAY the total balance
+                SET the program status to not running
+
+            OTHERWISE:
+                DISPLAY "Invalid selection. Please enter a number between 1 and 4."
+
+        END CASE
+
+    END WHILE
+
+    DISPLAY a closing message
+    TERMINATE the program
+
+END MODULE
+</code></pre>
+
+</body>
+</html>
